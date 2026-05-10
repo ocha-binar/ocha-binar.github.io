@@ -1,6 +1,4 @@
 title: Ocha Binar
 description: Blog personal dan perjalanan karir
-remote_theme: cotes2020/jekyll-theme-chirpy
 
-plugins:
-  - jekyll-remote-theme
+theme: minima
