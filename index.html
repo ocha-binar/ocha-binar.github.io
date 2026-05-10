@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ocha Binar Portfolio</title>
+  <title>Ocha Binar | RTA / WFM Portfolio</title>
 
   <style>
     body{
@@ -18,6 +18,15 @@
       color:white;
       padding:50px 20px;
       text-align:center;
+      position:relative;
+    }
+
+    .cta-banner{
+      background:#2563eb;
+      color:white;
+      padding:12px;
+      font-size:14px;
+      font-weight:bold;
     }
 
     .profile-img{
@@ -31,6 +40,11 @@
 
     h1{margin:10px 0 5px;}
 
+    .subtitle{
+      font-size:14px;
+      opacity:0.9;
+    }
+
     .btn{
       display:inline-block;
       padding:10px 14px;
@@ -43,6 +57,8 @@
     }
 
     .btn-wa{background:#16a34a;}
+
+    .btn-cv{background:#f97316;}
 
     .lang-btn{
       margin-top:10px;
@@ -70,6 +86,21 @@
 
     h2{color:#111827;}
 
+    .kpi-box{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:10px;
+      margin-top:10px;
+    }
+
+    .kpi{
+      background:#f3f4f6;
+      padding:12px;
+      border-radius:8px;
+      text-align:center;
+      font-size:14px;
+    }
+
     footer{
       text-align:center;
       padding:20px;
@@ -80,20 +111,22 @@
 </head>
 <body>
 
+<div class="cta-banner">
+  🚀 Hiring-ready RTA / WFM Candidate | Open for Remote Opportunities | Available for Interview
+</div>
+
 <header>
   <img class="profile-img" src="https://via.placeholder.com/150" alt="Profile" />
 
   <h1>Ocha Binar</h1>
 
-  <p class="lang-id">
-    Profesional Customer Service → RTA/WFM | Fokus Remote Career Growth
-  </p>
-  <p class="lang-en" style="display:none;">
-    Customer Service Professional → RTA/WFM | Focused on Remote Career Growth
-  </p>
+  <div class="subtitle">
+    RTA / WFM Candidate | Customer Operations | Remote-Ready Professional
+  </div>
 
   <a class="btn btn-wa" href="https://wa.me/6281234567890" target="_blank">WhatsApp</a>
   <a class="btn" href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+  <a class="btn btn-cv" href="cv.pdf" target="_blank">Download CV PDF</a>
 
   <br>
   <button class="lang-btn" onclick="toggleLang()">🌐 Switch Language</button>
@@ -102,99 +135,86 @@
 <section>
 
   <div class="card">
-    <h2 class="lang-id">Tentang Saya</h2>
-    <h2 class="lang-en" style="display:none;">About Me</h2>
+    <h2>ATS Summary</h2>
 
     <p class="lang-id">
-      Profesional dengan pengalaman Customer Service dan transisi ke Workforce Management (RTA/WFM). Berfokus pada pengembangan karier remote dengan pendekatan analitis, operasional, dan target-driven.
+      Profesional Customer Service dengan fokus transisi ke Workforce Management (RTA/WFM). Berpengalaman dalam operasional layanan pelanggan, KPI tracking, reporting, dan analisis dasar untuk meningkatkan efisiensi kerja.
     </p>
 
     <p class="lang-en" style="display:none;">
-      Experienced Customer Service professional transitioning into Workforce Management (RTA/WFM). Focused on building a remote career with analytical, operational, and target-driven approach.
+      Customer Service professional transitioning into Workforce Management (RTA/WFM). Experienced in customer operations, KPI tracking, reporting, and basic efficiency analysis.
     </p>
   </div>
 
   <div class="card">
-    <h2 class="lang-id">Pengalaman Kerja</h2>
-    <h2 class="lang-en" style="display:none;">Work Experience</h2>
+    <h2>Work Experience</h2>
 
-    <ul class="lang-id">
-      <li>Customer Service – handling customer inquiries & complaints</li>
-      <li>Berbasis KPI dan performance target</li>
-      <li>Koordinasi operasional tim</li>
-      <li>Dasar Workforce Management (RTA/WFM)</li>
-    </ul>
-
-    <ul class="lang-en" style="display:none;">
-      <li>Customer Service – handled customer inquiries & complaints</li>
-      <li>KPI and performance target-based environment</li>
-      <li>Operational team coordination</li>
-      <li>Basic Workforce Management (RTA/WFM)</li>
+    <ul>
+      <li>Customer Service – handling inquiries & complaints</li>
+      <li>KPI-driven environment (performance & SLA awareness)</li>
+      <li>Operational coordination with team members</li>
+      <li>Basic exposure to Workforce Management concepts</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2 class="lang-id">Project / Achievement</h2>
-    <h2 class="lang-en" style="display:none;">Projects / Achievements</h2>
+    <h2>Projects / Achievements</h2>
 
-    <ul class="lang-id">
-      <li>Simulasi monitoring workload dan kapasitas agent (RTA basic simulation)</li>
-      <li>Improvement response handling untuk meningkatkan customer satisfaction</li>
-      <li>Analisis sederhana KPI untuk membantu efisiensi kerja tim</li>
-      <li>Terlibat dalam pelaporan operasional harian (daily reporting)</li>
-    </ul>
-
-    <ul class="lang-en" style="display:none;">
-      <li>Workload and agent capacity monitoring simulation (basic RTA concept)</li>
-      <li>Improved response handling to increase customer satisfaction</li>
-      <li>Basic KPI analysis to support team efficiency</li>
-      <li>Involved in daily operational reporting</li>
+    <ul>
+      <li>Workload & capacity simulation (RTA basic concept)</li>
+      <li>Improved response process → +10–15% efficiency improvement simulation</li>
+      <li>Basic KPI tracking dashboard (Excel / Google Sheets)</li>
+      <li>Daily reporting & escalation handling practice</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2 class="lang-id">Skill</h2>
-    <h2 class="lang-en" style="display:none;">Skills</h2>
+    <h2>KPI Metrics</h2>
 
-    <ul class="lang-id">
-      <li>Customer Service Excellence</li>
-      <li>Komunikasi & Problem Solving</li>
-      <li>Dasar Workforce Management</li>
-      <li>Time Management</li>
-      <li>Analytical Thinking (basic)</li>
+    <div class="kpi-box">
+      <div class="kpi">CSAT Awareness<br><b>85–90%</b></div>
+      <div class="kpi">Response Time<br><b>< 1–3 min</b></div>
+      <div class="kpi">FCR Focus<br><b>70–80%</b></div>
+      <div class="kpi">SLA Compliance<br><b>90%+</b></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Tools</h2>
+
+    <ul>
+      <li>Microsoft Excel (reporting & analysis)</li>
+      <li>Google Sheets (tracking & dashboards)</li>
+      <li>CRM / Ticketing systems</li>
+      <li>Communication tools</li>
     </ul>
+  </div>
 
-    <ul class="lang-en" style="display:none;">
+  <div class="card">
+    <h2>Skills</h2>
+
+    <ul>
       <li>Customer Service Excellence</li>
       <li>Communication & Problem Solving</li>
       <li>Basic Workforce Management</li>
-      <li>Time Management</li>
-      <li>Basic Analytical Thinking</li>
+      <li>Data Awareness (KPI & Reporting)</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2 class="lang-id">Tujuan Karier</h2>
-    <h2 class="lang-en" style="display:none;">Career Goal</h2>
+    <h2>Career Objective</h2>
 
-    <p class="lang-id">
-      Mencari posisi remote/WFH di bidang RTA/WFM atau Customer Operations dengan target penghasilan ±10 juta rupiah per bulan.
-    </p>
-
-    <p class="lang-en" style="display:none;">
-      Seeking remote/WFH roles in RTA/WFM or Customer Operations with a target income of around 10 million IDR per month.
+    <p>
+      Seeking remote/WFH opportunity in RTA/WFM or Customer Operations with KPI-driven performance focus and operational efficiency mindset. Target income growth up to 10 million IDR/month.
     </p>
   </div>
 
   <div class="card">
-    <h2 class="lang-id">Kontak</h2>
-    <h2 class="lang-en" style="display:none;">Contact</h2>
-
-    <p class="lang-id">Hubungi saya untuk peluang kerja remote.</p>
-    <p class="lang-en" style="display:none;">Contact me for remote job opportunities.</p>
+    <h2>Contact</h2>
 
     <a class="btn btn-wa" href="https://wa.me/6281234567890" target="_blank">WhatsApp</a>
     <a class="btn" href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    <a class="btn btn-cv" href="cv.pdf" target="_blank">Download CV PDF</a>
   </div>
 
 </section>
