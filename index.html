@@ -11,26 +11,40 @@
       background: #f5f5f5;
       color: #333;
     }
+
     header {
       background: #111827;
       color: white;
       padding: 60px 20px;
       text-align: center;
     }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+
     header h1 {
       margin: 0;
       font-size: 36px;
     }
+
     header p {
       margin-top: 10px;
       font-size: 18px;
       color: #d1d5db;
     }
+
     section {
-      max-width: 800px;
+      max-width: 850px;
       margin: auto;
       padding: 40px 20px;
     }
+
     .card {
       background: white;
       padding: 20px;
@@ -38,9 +52,11 @@
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
+
     h2 {
       color: #111827;
     }
+
     .btn {
       display: inline-block;
       padding: 10px 15px;
@@ -49,7 +65,13 @@
       text-decoration: none;
       border-radius: 6px;
       margin-top: 10px;
+      margin-right: 10px;
     }
+
+    .btn-wa {
+      background: #16a34a;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
@@ -61,36 +83,61 @@
 <body>
 
 <header>
+  <img class="profile-img" src="https://via.placeholder.com/150" alt="Foto Profil" />
   <h1>Ocha Binar</h1>
-  <p>Aspiring Remote Worker | Customer Service & Workforce Management</p>
+  <p>Aspiring Remote Worker | Customer Service & Workforce Management (RTA/WFM)</p>
+
+  <a class="btn btn-wa" href="https://wa.me/6281234567890" target="_blank">Chat WhatsApp</a>
+  <a class="btn" href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
 </header>
 
 <section>
+
   <div class="card">
     <h2>Tentang Saya</h2>
-    <p>Saya memiliki pengalaman di bidang customer service dan sedang fokus beralih ke role RTA / WFM dengan target kerja remote (WFH).</p>
+    <p>
+      Profesional dengan pengalaman di bidang Customer Service yang sedang bertransisi ke peran Workforce Management (RTA/WFM).
+      Terbiasa bekerja dengan target, analisis dasar operasional, dan komunikasi tim. Saat ini fokus mengembangkan karier
+      menuju pekerjaan remote (WFH) dengan target penghasilan sekitar <b>10 juta rupiah per bulan</b>.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Pengalaman Kerja</h2>
+    <ul>
+      <li><b>Customer Service</b> – menangani pelanggan, penyelesaian masalah, dan menjaga kualitas layanan</li>
+      <li>Terbiasa bekerja dengan KPI dan target performa</li>
+      <li>Pengalaman koordinasi tim dan handling komplain pelanggan</li>
+      <li>Mulai memahami dasar Workforce Management (monitoring, scheduling, reporting)</li>
+    </ul>
   </div>
 
   <div class="card">
     <h2>Skill</h2>
     <ul>
-      <li>Customer Service</li>
-      <li>Workforce Management (basic understanding)</li>
-      <li>Communication</li>
-      <li>Problem Solving</li>
+      <li>Customer Service Excellence</li>
+      <li>Communication & Problem Solving</li>
+      <li>Basic Workforce Management (RTA/WFM)</li>
+      <li>Time Management</li>
+      <li>Adaptasi cepat pada sistem kerja baru</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>Tujuan</h2>
-    <p>Mencari pekerjaan remote/WFH dengan penghasilan sekitar 10 juta rupiah per bulan di bidang operasional atau support.</p>
+    <h2>Tujuan Karier</h2>
+    <p>
+      Mencari peluang kerja remote/WFH di bidang operasional atau support (RTA/WFM/Customer Operations)
+      dengan target pengembangan karier yang stabil dan penghasilan sekitar <b>10 juta rupiah per bulan</b>.
+    </p>
   </div>
 
   <div class="card">
     <h2>Kontak</h2>
-    <p>Silakan hubungi saya untuk peluang kerja atau kolaborasi.</p>
-    <a class="btn" href="https://wa.me/6281234567890" target="_blank">Chat WhatsApp</a>
+    <p>Hubungi saya untuk peluang kerja atau diskusi profesional.</p>
+    <a class="btn btn-wa" href="https://wa.me/6281234567890" target="_blank">Chat WhatsApp</a>
+    <a class="btn" href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
   </div>
+
 </section>
 
 <footer>
